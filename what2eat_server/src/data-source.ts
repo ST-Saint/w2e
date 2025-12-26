@@ -9,7 +9,7 @@ import { ReviewerEntity } from './entity/reviewer-entity';
 
 export const AppDataSource = new DataSource({
     type: 'sqlite',
-    database: 'what2eat.sqlite',
+    database: '/what2eat_sqlite/what2eat.sqlite',
     synchronize: true,
     logging: false,
     entities: [
